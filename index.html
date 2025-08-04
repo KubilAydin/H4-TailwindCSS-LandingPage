@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="stlye.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Landing Page</title>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <header class="flex justify-between bg-gray-50 item-center px-3 py-2 shadow m-10">
+        <a class="p-2" href="#">
+            <i class="fa-regular fa-copyright text-2xl text-blue-800"></i>
+        </a>
+        <navbar class="flex gap-6 items-center">
+            <a class="text-md text-gray-600 font-semibold hover:text-blue-800" href="#">Link</a>
+            <a class="text-md text-gray-600 font-semibold hover:text-blue-800" href="#">Link</a>
+            <a class="text-md text-gray-600 font-semibold hover:text-blue-800" href="#">Link</a>
+            <button class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-gray-800"><a href="#">Sign In</a></button>
+        </navbar>
+    </header>
+    <!-- Section - 1 -->
+    <section class="grid grid-cols-3 grid-flow-row-dense m-10 gap-10">
+        <div class="flex flex-col justify-center text-center p-10 bg-gray-50 rounded shadow w-full">
+            <p class="text-xl text-purple-600 font-medium mb-4">Mamba Design System</p>
+            <h1 class="text-6xl font-bold tracking-tight">Build it with</h1>
+            <span class="text-6xl font-bold tracking-tight mb-4">Mamba</span>
+            <p class="text-lg mb-6"><span class="font-bold text-sm">Modular and versatile.</span> The ultimate design toolkit for savvy technology startups</p>
+            <form action="" class="space-y-3">
+                <input class="w-full px-4 border border-gray-300 rounded" type="text" name="" id="" placeholder="Your Name">
+                <input class="w-full px-4 border border-gray-300 rounded" type="email" placeholder="Email Address">
+                <input class="w-full px-4 py-2 bg-purple-600 text-white font-bold rounded" type="submit" value="Join the waitlist"></input>
+            </form>
+        </div>
+        <div class="col-span-2 rounded shadow w-full">
+            <img class="w-full h-auto object-fill rounded aspect-3/2" src="https://picsum.photos/id/257/750/750" alt="Section 1">
+        </div>
+    </section>
+    <!-- Section - 2 -->
+    <section class="flex flex-col m-10 text-center">
+        <p class="text-sm text-purple-600 tracking-wide leading-tight uppercase">How It Works</p>
+        <h1 class="text-5xl font-bold">Building with Mamba is simple</h1>
+        <article class="grid grid-cols-3 mt-5 gap-6">
+            <div class="bg-white p-5">
+                <div class="size-10 flex bg-purple-600 rounded-full place-self-start justify-center block">
+                    <span class="place-self-center text-white font-bold">1</span>
+                </div>                
+                <p class="mt-2 text-left text-xl font-semibold"><strong class="font-black">Nulla.</strong>Nostrum, corrupti blandatiis. Illum, architecto</p>
+            </div>
+            <div class="bg-white p-5">
+                <div class="size-10 flex bg-purple-600 rounded-full place-self-start justify-center block">
+                    <span class="place-self-center text-white font-bold">2</span>
+                </div>                
+                <p class="mt-2 text-left text-xl font-semibold"><strong class="font-black">Accusantium.</strong>Vitae, sarpe atque negue sunt eius dolor vaniam alias debitis</p>
+            </div>
+            <div class="bg-white p-5">
+                <div class="size-10 flex bg-purple-600 rounded-full place-self-start justify-center block">
+                    <span class="place-self-center text-white font-bold">3</span>
+                </div>                
+                <p class="mt-2 text-left text-xl font-semibold"><strong class="font-black">Maxime.</strong>Expesdita, temporibus culpa reprehenderit doloribus consectetur odio!</p>
+            </div>
+        </article>
+    </section>
+    <!-- Section - 3 -->
+    <section class="grid grid-cols-2 m-10 gap-6">
+        <div class="rounded shadow">
+            <img src="https://picsum.photos/id/212/600/600" alt="Section 2" class="w-full h-auto object-fill rounded aspect-3/2">
+        </div>
+        <div class="rounded shadow bg-gray-50">
+            <div class="flex flex-col justify-center items-center p-10">
+                <div class="size-20 bg-gray-400 rounded-full place-self-center flex justify-center items-center block">
+                    <i class="fa-solid fa-images text-center text-2xl text-white"></i>
+                </div>
+                <p class="text-gray-800 font-medium italic text-center text-xl mt-5"><q>Et, dignissimos obcaecati. Recusandae prasentium<br>
+                doloribus vitae? Rem unde atque mollitia!</q>
+                </p>
+                <span class="text-gray-600 text-lg mt-5">Leroy Jenkins</span>
+                <span class="text-gray-600 text-lg">CEO of Company Co.</span>
+                <div class="flex justify-center space-x-2 mt-6">
+                    <span class="w-2 h-2 bg-gray-900 rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-400 rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-400 rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-400 rounded-full"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section - 4 -->
+    <section class="bg-white m-10 flex flex-col p-10 rounded shadow">
+        <h1 class="text-4xl font-extrabold text-left text-gray-800">Create with us</h1>
+        <p class="mt-5 text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati corporis deleniti atque cum distinctio dicta vitae aliquid temporibus fugit, sed sapiente voluptatem? Accusantium odit iure, veniam deleniti consequatur, quam nulla odio modi dolor reprehenderit similique temporibus culpa maxime? Sed ipsum commodi id sunt dignissimos earum laborum ipsa consequuntur accusamus voluptas?</p>
+    </section>
+    <!-- Section - 5 -->
+    <section class="grid grid-cols-2 m-10 bg-white">
+        <div class="rounded shadow">
+            <img src="https://picsum.photos/id/88/500/600" alt="Section 5" class="w-full h-auto object-fill rounded aspect-3/2">
+        </div>
+        <div class="p-10 relative rounded shadow">
+            <span class="inline-block bg-purple-600 rounded-full p-2 text-white text-xs font-medium">Business</span>
+            <div class="flex flex-col mt-5 justify-center item-center text-start">
+                <h1 class="text-4xl font-bold text-gray-800">Curating a workplace that<br>inspires team movement</h1>
+                <p class="text-gray-600 absolute bottom-5 left-5 text-base">November 30.2020<br>By Leroy Jenkins</p>
+            </div>
+        </div>
+    </section>
+    <!-- Section - 6 - Cards -->
+    <section class="grid grid-cols-3 gap-6 m-10">
+        <div class="bg-white rounded shadow p-6">
+            <p class="text-gray-800 font-medium"><strong>Panel-based blocks.</strong> Flexible panels that are perfect for building functional layouts.</p>
+        </div>
+        <div class="bg-white rounded shadow p-6">
+            <p class="text-gray-800 font-medium"><strong>Responsive design.</strong> Panels look great no matter the device.</p>
+        </div>
+        <div class="bg-white rounded shadow p-6">
+            <p class="text-gray-800 font-medium"><strong>Premium support.</strong> Join over 50.000 satisfied customers who use our templates.</p>
+        </div>
+    </section>
+    <!-- Section - 7 -->
+    <section class="flex flex-col bg-white m-10 p-10 text-center rounded shadow">
+        <h1 class="text-5xl font-bold text-gray-800">Our team is here to help you</h1>
+        <span class="text-gray-800 text-sm font-medium mt-5 tracking-tight">Meet our crew ></span>
+        <div class="flex">
+            <img class="rounded mt-5 justify-center item-center object-cover" src="https://picsum.photos/id/50/1600/300" alt="Section 7" >
+        </div>        
+    </section>
+    <!-- Footer -->
+    <footer class="mx-10 mt-2 mb-2 bg-white rounded shadow p-5">
+        <div class="flex justify-between">
+            <p class="font-bold text-md">Mamba</p>
+            <div class="flex item-center">
+                <a class="pr-2" href="#"><i class="fa-solid fa-envelope hover:text-blue-800"></i></a>
+                <a class="pr-2" href="#"><i class="fa-brands fa-twitter hover:text-blue-800"></i></a>
+                <a class="pr-2" href="#"><i class="fa-brands fa-github hover:text-blue-800"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
